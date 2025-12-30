@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "886903956833",
+    "project_id": "playfisica-b33ec",
+    "storage_bucket": "playfisica-b33ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886903956833:android:e92ee493b78e339c345120",
+        "android_client_info": {
+          "package_name": "br.com.dalario.playfisica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMpmGBpDUM77XWGquO_X6di91btqt8Bs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
