@@ -44,7 +44,6 @@ fun ModulosScreen(navController: NavController) {
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
         )
-
         Column(modifier = Modifier.fillMaxSize().statusBarsPadding()) {
             Spacer(modifier = Modifier.padding(top = 10.dp))
             Row(
@@ -183,6 +182,40 @@ fun ModulosScreen(navController: NavController) {
                     }
                     Text(
                         "3",
+                        fontSize = 60.sp,
+                        color = Color.White,
+                        fontWeight = FontWeight.Bold,
+                        fontFamily = Piexelify,
+                    )
+                }
+
+            }
+            Card(
+                modifier = Modifier.fillMaxWidth()
+                    .height(110.dp)
+                    .padding(5.dp),
+                colors = CardDefaults.cardColors(colorResource(R.color.modulo_4)),
+                border = BorderStroke(1.dp, Color.White),
+                onClick = { navController.navigate("modulo4") }
+            ) {
+                Row(
+                    modifier = Modifier.fillMaxSize(),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.SpaceAround
+                ) {
+                    Column(
+//
+                    ) {
+                        Text(
+                            "Módulo",
+                            fontSize = 60.sp, color = Color.White,
+                            fontWeight = FontWeight.Bold,
+                            fontFamily = Piexelify,
+                        )
+
+                    }
+                    Text(
+                        "4",
                         fontSize = 60.sp,
                         color = Color.White,
                         fontWeight = FontWeight.Bold,

@@ -34,6 +34,7 @@ fun BottomBar(navController: NavController) {
         currentRoute?.startsWith("modulo1") == true -> colorResource(R.color.modulo_1) // azul para módulo 1
         currentRoute?.startsWith("modulo2") == true -> colorResource(R.color.modulo_2) // verde para módulo 2
         currentRoute?.startsWith("modulo3") == true -> colorResource(R.color.modulo_3) // laranja para módulo 3
+        currentRoute?.startsWith("modulo4") == true -> colorResource(R.color.modulo_4) // laranja para módulo 3
         currentRoute?.startsWith("quiz") == true -> colorResource(R.color.quiz)
         else-> colorResource(R.color.azul_logo)
     }

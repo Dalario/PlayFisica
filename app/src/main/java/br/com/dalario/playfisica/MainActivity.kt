@@ -108,6 +108,28 @@ import br.com.dalario.playfisica.Screens.Modulo3.Modulo3_7Screen
 import br.com.dalario.playfisica.Screens.Modulo3.Modulo3_8Screen
 import br.com.dalario.playfisica.Screens.Modulo3.Modulo3_9Screen
 import br.com.dalario.playfisica.Screens.Modulo3.Modulo3_Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_10Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_11Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_12Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_13Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_14Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_15Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_16Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_17Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_18Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_19Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_1Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_20Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_21Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_2Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_3Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_4Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_5Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_6Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_7Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_8Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_9Screen
+import br.com.dalario.playfisica.Screens.Modulo4.Modulo4_Screen
 import br.com.dalario.playfisica.Screens.ModulosScreen
 import br.com.dalario.playfisica.Screens.QuizzesScreen
 import br.com.dalario.playfisica.ui.theme.PlayFisicaTheme
@@ -1666,6 +1688,382 @@ class MainActivity : ComponentActivity() {
                             })
 
                         { Material3_15Screen(navController)}
+
+                        composable(
+                            route = "modulo4",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_Screen(navController)}
+
+                        composable(
+                            route = "modulo4_1",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_1Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_2",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_2Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_3",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_3Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_4",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_4Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_5",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_5Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_6",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_6Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_7",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_7Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_8",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_8Screen(navController = navController)}
+
+
+                        composable(
+                            route = "modulo4_9",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_9Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_10",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_10Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_11",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_11Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_12",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_12Screen(navController = navController)}
+
+
+                        composable(
+                            route = "modulo4_13",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_13Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_14",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_14Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_15",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_15Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_16",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_16Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_17",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_17Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_18",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_18Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_19",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_19Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_20",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_20Screen(navController = navController)}
+
+                        composable(
+                            route = "modulo4_21",
+                            enterTransition = {
+                                slideInHorizontally(initialOffsetX = { 1000 }) + fadeIn()
+                            },
+                            exitTransition = {
+                                slideOutHorizontally(targetOffsetX = { -1000 }) + fadeOut()
+                            },
+                            popEnterTransition = {
+                                slideInHorizontally(initialOffsetX = { -1000 }) + fadeIn()
+                            },
+                            popExitTransition = {
+                                slideOutHorizontally(targetOffsetX = { 1000 }) + fadeOut()
+                            }
+
+                        )  {Modulo4_21Screen(navController = navController)}
 
                     }
 
