@@ -1,5 +1,6 @@
 package br.com.dalario.playfisica.Screens
 
+import androidx.annotation.ColorRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -103,7 +104,9 @@ fun LoginScreen (modifier: Modifier = Modifier, navController: NavController) {
                     focusedLabelColor = colorResource(R.color.white),
                     focusedBorderColor = colorResource(corFo),
                     unfocusedBorderColor =colorResource( corUn),
-                    unfocusedLabelColor = colorResource(R.color.white)
+                    unfocusedLabelColor = colorResource(R.color.white),
+                    focusedTextColor = colorResource(R.color.white)
+
                 )
             )
             Spacer(modifier = Modifier.padding(vertical = 10.dp))
@@ -120,6 +123,7 @@ fun LoginScreen (modifier: Modifier = Modifier, navController: NavController) {
                     focusedBorderColor = colorResource(corFo),
                     unfocusedBorderColor = colorResource(corUn),
                     unfocusedLabelColor = colorResource(R.color.white),
+                    focusedTextColor = colorResource(R.color.white)
                 )
             )
 

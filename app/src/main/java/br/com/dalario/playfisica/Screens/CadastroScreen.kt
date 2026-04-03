@@ -112,7 +112,8 @@ fun CadastroScreen (modifier: Modifier = Modifier, navController: NavController)
                     focusedLabelColor = colorResource(R.color.white),
                     focusedBorderColor = colorResource(corFo),
                     unfocusedBorderColor =colorResource( corUn),
-                    unfocusedLabelColor = colorResource(R.color.white)
+                    unfocusedLabelColor = colorResource(R.color.white),
+                    focusedTextColor = colorResource(R.color.white)
                 )
             )
             Spacer(modifier = Modifier.padding(vertical = 10.dp))
@@ -128,7 +129,8 @@ fun CadastroScreen (modifier: Modifier = Modifier, navController: NavController)
                     focusedLabelColor = colorResource(R.color.white),
                     focusedBorderColor = colorResource(corFo),
                     unfocusedBorderColor = colorResource(corUn),
-                    unfocusedLabelColor = colorResource(R.color.white)
+                    unfocusedLabelColor = colorResource(R.color.white),
+                    focusedTextColor = colorResource(R.color.white)
                 )
             )
             Spacer(modifier = Modifier.padding(vertical = 10.dp))
@@ -144,7 +146,8 @@ fun CadastroScreen (modifier: Modifier = Modifier, navController: NavController)
                     focusedLabelColor = colorResource(R.color.white),
                     focusedBorderColor = colorResource(corFo),
                     unfocusedBorderColor = colorResource(corUn),
-                    unfocusedLabelColor = colorResource(R.color.white)
+                    unfocusedLabelColor = colorResource(R.color.white),
+                    focusedTextColor = colorResource(R.color.white)
                 )
             )
             Spacer(modifier = Modifier.padding(vertical = 10.dp))
@@ -160,7 +163,8 @@ fun CadastroScreen (modifier: Modifier = Modifier, navController: NavController)
                     focusedLabelColor = colorResource(R.color.white),
                     focusedBorderColor = colorResource(corFo),
                     unfocusedBorderColor = colorResource(corUn),
-                    unfocusedLabelColor = colorResource(R.color.white)
+                    unfocusedLabelColor = colorResource(R.color.white),
+                    focusedTextColor = colorResource(R.color.white)
                 )
             )
 

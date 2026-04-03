@@ -12,7 +12,7 @@ fun Modulo2_5Screen (modifier: Modifier = Modifier, navController: NavController
     Conteudos(
         navController = navController,
         videoId= "dhf-9c3J9BM",
-        titulo= "Exercicio 8",
+        titulo= "Exercício 8",
         cor_modulo = colorResource(R.color.modulo_2),
         descricao="O vídeo propõe um exercício no P5.js para criar um cenário de jogo com movimento. A ideia é desenhar os elementos principais da paisagem: céu, chão, montanhas, árvores, nuvens e plataformas. Não é necessário adicionar personagens, textos ou detalhes extras ainda.\n" +
                 "\n" +

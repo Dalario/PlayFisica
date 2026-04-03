@@ -12,7 +12,7 @@ fun Modulo2_12Screen (modifier: Modifier = Modifier, navController: NavControlle
     Conteudos(
         navController = navController,
         videoId= "oWe4Zxh33HY",
-        titulo= "Exercicio 11",
+        titulo= "Exercício 11",
         cor_modulo = colorResource(R.color.modulo_2),
         descricao="O exercício reutiliza a mesma paisagem e o mesmo foguete do vídeo anterior. A única diferença é que agora o foguete sobe e depois desce, aplicando o conceito de lançamento vertical.\n" +
                 "\n" +

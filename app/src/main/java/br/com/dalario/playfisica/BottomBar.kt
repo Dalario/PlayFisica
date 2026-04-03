@@ -33,8 +33,8 @@ fun BottomBar(navController: NavController) {
     val barColor =   when {
         currentRoute?.startsWith("modulo1") == true -> colorResource(R.color.modulo_1) // azul para módulo 1
         currentRoute?.startsWith("modulo2") == true -> colorResource(R.color.modulo_2) // verde para módulo 2
-        currentRoute?.startsWith("modulo3") == true -> colorResource(R.color.modulo_3) // laranja para módulo 3
-        currentRoute?.startsWith("modulo4") == true -> colorResource(R.color.modulo_4) // laranja para módulo 3
+        currentRoute?.startsWith("modulo3") == true -> colorResource(R.color.modulo_3)
+        currentRoute?.startsWith("modulo4") == true -> colorResource(R.color.modulo_4)
         currentRoute?.startsWith("quiz") == true -> colorResource(R.color.quiz)
         else-> colorResource(R.color.azul_logo)
     }
@@ -43,7 +43,6 @@ fun BottomBar(navController: NavController) {
     NavigationBar(
         modifier = Modifier.height(60.dp),
         containerColor = barColor,
-
     ){
         Row(
             modifier = Modifier.fillMaxSize().padding(top = 9.dp),

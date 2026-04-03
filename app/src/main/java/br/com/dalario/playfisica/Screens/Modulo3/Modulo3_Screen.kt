@@ -66,191 +66,256 @@ fun Modulo3_Screen (navController: NavController) {
                 )
             }
             Column(
-                modifier = Modifier.fillMaxSize().verticalScroll(state = rememberScrollState())
+                modifier = Modifier
+                    .fillMaxSize()
+                    .verticalScroll(state = rememberScrollState()),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Top
             ) {
+
                 Row(
-                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp),
+                    horizontalArrangement = Arrangement.Center,
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Aulas(
-                        legenda = "1° Lei de Newton",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_1",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "GT5JRtmZQ_U"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "1° Lei de Newton",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_1",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "GT5JRtmZQ_U"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Exercicio 14",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_2",
-                        imagemRes = R.drawable.checklist,
-                        thumbnailid = "UNPPgKmpFnA"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Exercicio 14",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_2",
+                            imagemRes = R.drawable.checklist,
+                            thumbnailid = "UNPPgKmpFnA"
+                        )
+                    }
                 }
+
                 Row(
-                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp),
+                    horizontalArrangement = Arrangement.Center,
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Aulas(
-                        legenda = "2° Lei de Newton",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_3",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "tIfvN0NnYMg"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "2° Lei de Newton",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_3",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "tIfvN0NnYMg"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Exercício 15",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_4",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "N7MFMdN2LWQ"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Exercício 15",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_4",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "N7MFMdN2LWQ"
+                        )
+                    }
                 }
+
+
                 Row(
-                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp),
+                    horizontalArrangement = Arrangement.Center,
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Aulas(
-                        legenda = "3° Lei de Newton",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_5",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "YYmVHl8cNuk"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "3° Lei de Newton",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_5",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "YYmVHl8cNuk"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Força de Atrito",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_6",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "oUxfT7Ri7q0"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Força de Atrito",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_6",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "oUxfT7Ri7q0"
+                        )
+                    }
                 }
+
+
                 Row(
-                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp),
+                    horizontalArrangement = Arrangement.Center,
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Aulas(
-                        legenda = "Força de Arrasto",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_7",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "TCXg3PqnaG4"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Força de Arrasto",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_7",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "TCXg3PqnaG4"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Exercicio 16",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_8",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "TB9p5pHpUJs"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Exercicio 16",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_8",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "TB9p5pHpUJs"
+                        )
+                    }
                 }
+
+
                 Row(
-                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp),
+                    horizontalArrangement = Arrangement.Center,
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Aulas(
-                        legenda = "Força de Tração e Elástica",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_9",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "UIeMNLA02PM"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Força de Tração e Elástica",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_9",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "UIeMNLA02PM"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Exercicio 17",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_10",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "cXm2ZcC_qGo"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Exercicio 17",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_10",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "cXm2ZcC_qGo"
+                        )
+                    }
                 }
+
+
                 Row(
-                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp),
+                    horizontalArrangement = Arrangement.Center,
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Aulas(
-                        legenda = "Exercicio 18",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_11",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "x1RCk37uvcQ"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Exercicio 18",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_11",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "x1RCk37uvcQ"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Formas de Energia",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_12",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "1FsY61SGVoo"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Formas de Energia",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_12",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "1FsY61SGVoo"
+                        )
+                    }
                 }
+
+
                 Row(
-                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp),
+                    horizontalArrangement = Arrangement.Center,
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Aulas(
-                        legenda = "Efeito Bounce",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_13",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "m7hHSarABFI"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Efeito Bounce",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_13",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "m7hHSarABFI"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Exercício 19",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_14",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "nRZnp1Mys1M"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Exercício 19",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_14",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "nRZnp1Mys1M"
+                        )
+                    }
                 }
+
                 Row(
-                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp),
+                    horizontalArrangement = Arrangement.Center,
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Aulas(
-                        legenda = "Momento Linear",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_15",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "P9pfxZaJExI"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Momento Linear",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_15",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "P9pfxZaJExI"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Exercício 20",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_3),
-                        navController = navController,
-                        destino = "modulo3_16",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "ELIcCJKCIZQ"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Exercício 20",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_3),
+                            navController = navController,
+                            destino = "modulo3_16",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "ELIcCJKCIZQ"
+                        )
+                    }
                 }
             }
         }

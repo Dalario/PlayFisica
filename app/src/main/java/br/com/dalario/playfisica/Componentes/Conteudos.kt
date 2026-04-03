@@ -75,7 +75,7 @@ fun Conteudos(
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(440.dp)
+                    .height(500.dp)
                     .padding(top = 10.dp),
                 colors = CardDefaults.cardColors(cor_modulo)
             ) {
@@ -117,31 +117,33 @@ fun Conteudos(
 
             }
 
-            if(titulo.startsWith("Exercício")){
+            if(titulo.startsWith("Exerc")){
                 exerciciovizu(exercicioId = exercicioId, cor_modulo = cor_modulo);
             }
             else {
-                Card(
-                    modifier = Modifier.fillMaxWidth()
-                        .height(70.dp)
-                        .padding(top = 10.dp),
-                    colors = CardDefaults.cardColors(cor_modulo),
-                    border = BorderStroke(2.dp, Color.DarkGray),
-                    onClick = { navController.navigate(destino_material) }
-                ) {
-                    Row(
-                        modifier = Modifier.fillMaxSize(),
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.SpaceAround
+                Column(modifier = Modifier.fillMaxSize(), verticalArrangement = Arrangement.Center) {
+                    Card(
+                        modifier = Modifier.fillMaxWidth()
+                            .height(90.dp)
+                            .padding(vertical = 10.dp),
+                        colors = CardDefaults.cardColors(cor_modulo),
+                        border = BorderStroke(2.dp, Color.DarkGray),
+                        onClick = { navController.navigate(destino_material) }
                     ) {
-                        Text(
-                            "Ver material",
-                            fontSize = 50.sp, color = Color.White,
-                            fontWeight = FontWeight.Bold,
-                            fontFamily = Piexelify,
-                        )
-                    }
+                        Row(
+                            modifier = Modifier.fillMaxSize(),
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.SpaceAround
+                        ) {
+                            Text(
+                                "Ver material",
+                                fontSize = 50.sp, color = Color.White,
+                                fontWeight = FontWeight.Bold,
+                                fontFamily = Piexelify,
+                            )
+                        }
 
+                    }
                 }
             }
 
@@ -159,8 +161,8 @@ fun exerciciovizu(
     val context = LocalContext.current
 
     Card(modifier = Modifier.fillMaxWidth()
-        .height(70.dp)
-        .padding(top = 10.dp),
+        .height(90.dp)
+        .padding(vertical = 10.dp),
         colors = CardDefaults.cardColors(cor_modulo),
         border = BorderStroke(2.dp, Color.DarkGray),
         onClick = {

@@ -12,7 +12,7 @@ fun Modulo2_16Screen (modifier: Modifier = Modifier, navController: NavControlle
     Conteudos(
         navController = navController,
         videoId= "dTRrArtw6-A",
-        titulo= "Exercicio 13",
+        titulo= "Exercício 13",
         cor_modulo = colorResource(R.color.modulo_2),
         descricao="\uD83D\uDCA5 Exercício: Canhão e Lançamento Oblíquo!\n" +
                 "Neste desafio, você deve criar um cenário simples (sol, chão, cacto e canhão) e programar a bola de canhão realizando um lançamento oblíquo. Isso significa aplicar:\n" +

@@ -12,7 +12,7 @@ fun Modulo2_8Screen (modifier: Modifier = Modifier, navController: NavController
     Conteudos(
         navController = navController,
         videoId= "W01xLl65P3c",
-        titulo= "Exercicio 9",
+        titulo= "Exercício 9",
         cor_modulo = colorResource(R.color.modulo_2),
         descricao="O exercício consiste em reutilizar o cenário de uma aula anterior e adicionar dois novos elementos com movimento retilíneo uniformemente variado (MRUV):\n" +
                 "\n" +

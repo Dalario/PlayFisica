@@ -12,7 +12,7 @@ fun Modulo2_10Screen (modifier: Modifier = Modifier, navController: NavControlle
     Conteudos(
         navController = navController,
         videoId= "FuQ3h0UJUIY",
-        titulo= "Exercicio 10",
+        titulo= "Exercício 10",
         cor_modulo = colorResource(R.color.modulo_2),
         descricao="O exercício consiste em criar uma paisagem e simular a queda livre de floquinhos de neve usando P5.js.\n" +
                 "\n" +

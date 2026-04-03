@@ -68,228 +68,292 @@ fun Modulo4_Screen(navController: NavController){
                     ).padding(horizontal = 10.dp)
                 )
             }
-            Column(modifier = Modifier.fillMaxSize().verticalScroll(state = rememberScrollState())) {
-                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)) {
-                    Aulas(
-                        legenda = "MouseX e MouseY",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_1",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "JbxS5hvTsmo"
-                    )
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .verticalScroll(state = rememberScrollState()),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Top
+            ) {
+
+                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "MouseX e MouseY",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_1",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "JbxS5hvTsmo"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Aplicação MouseX e MouseY",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_2",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "B0VSgCvfVu4"
-                    )
-                }
-                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)) {
-                    Aulas(
-                        legenda = "PmouseX e PmouseY",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_3",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "-KutcUpVjyo"
-                    )
-                    Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Interações com o mouse",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_4",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "-y72Y8kZiSw"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Aplicação MouseX e MouseY",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_2",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "B0VSgCvfVu4"
+                        )
+                    }
                 }
 
-                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)) {
-                    Aulas(
-                        legenda = "Comando Random",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_5",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "av28aDGlpfU"
-                    )
+
+                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "PmouseX e PmouseY",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_3",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "-KutcUpVjyo"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Exercício 23",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_6",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "aI5vyqCb44I",
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Interações com o mouse",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_4",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "-y72Y8kZiSw"
+                        )
+                    }
                 }
-                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)) {
-                    Aulas(
-                        legenda = "Mouse e Double/Clicked",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_7",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "PwVHEquhr7E"
-                    )
+
+                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Comando Random",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_5",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "av28aDGlpfU"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Exercício 24",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_8",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "kR9OdfZREuc"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Exercício 23",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_6",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "aI5vyqCb44I",
+                        )
+                    }
                 }
-                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)) {
-                    Aulas(
-                        legenda = "Moved X e Y",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_9",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "kwynRNl_0ys"
-                    )
+
+                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Mouse e Double/Clicked",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_7",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "PwVHEquhr7E"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Mouse Pressed/Realeased",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_10",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "vUDOojeVk6Y"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Exercício 24",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_8",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "kR9OdfZREuc"
+                        )
+                    }
                 }
-                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)) {
-                    Aulas(
-                        legenda = "Exercício 25",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_11",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "IeZLSrITvXk"
-                    )
+
+
+                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Moved X e Y",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_9",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "kwynRNl_0ys"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Mouse Dragged/Moved",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_12",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "lmW8HhCUxEw"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Mouse Pressed/Realeased",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_10",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "vUDOojeVk6Y"
+                        )
+                    }
                 }
-                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)) {
-                    Aulas(
-                        legenda = "Exercício 26",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_13",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "jTPFhsOrP3s"
-                    )
+
+
+                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Exercício 25",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_11",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "IeZLSrITvXk"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Mouse Wheel/IsPressed",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_14",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "aZHVYb0y4dU"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Mouse Dragged/Moved",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_12",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "lmW8HhCUxEw"
+                        )
+                    }
                 }
-                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)) {
-                    Aulas(
-                        legenda = "Exercício 27",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_15",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "G7HKUtzzUfQ"
-                    )
+
+
+                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Exercício 26",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_13",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "jTPFhsOrP3s"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Request/Exit PointerLock",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_16",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "w5p92ZXAk7E"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Mouse Wheel/IsPressed",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_14",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "aZHVYb0y4dU"
+                        )
+                    }
                 }
-                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)) {
-                    Aulas(
-                        legenda = "KeyIsPressed, Key e KeyCode",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_17",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "037co_TGc7A"
-                    )
+
+                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Exercício 27",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_15",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "G7HKUtzzUfQ"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Exercício 28",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_18",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "mDo54lDS_Kc"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Request/Exit PointerLock",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_16",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "w5p92ZXAk7E"
+                        )
+                    }
                 }
-                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)) {
-                    Aulas(
-                        legenda = "KeyPressed e KeyIsDown",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_19",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "wcQhPKlsJmE"
-                    )
+
+                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "KeyIsPressed, Key e KeyCode",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_17",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "037co_TGc7A"
+                        )
+                    }
                     Spacer(modifier = Modifier.padding(horizontal = 10.dp))
-                    Aulas(
-                        legenda = "Exercício 29",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_20",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "DpNoDfgbQNc"
-                    )
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Exercício 28",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_18",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "mDo54lDS_Kc"
+                        )
+                    }
                 }
-                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp)) {
-                    Aulas(
-                        legenda = "KeyTyped e KeyReleased",
-                        cor_cima = colorResource(R.color.fundo),
-                        cor_baixo = colorResource(R.color.modulo_4),
-                        navController = navController,
-                        destino = "modulo4_21",
-                        imagemRes = R.drawable.play,
-                        thumbnailid = "DFIe76rjLF4"
-                    )
+
+                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "KeyPressed e KeyIsDown",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_19",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "wcQhPKlsJmE"
+                        )
+                    }
+                    Spacer(modifier = Modifier.padding(horizontal = 10.dp))
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "Exercício 29",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_20",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "DpNoDfgbQNc"
+                        )
+                    }
+                }
+
+                Row(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Box(modifier = Modifier.weight(1f), contentAlignment = Alignment.Center) {
+                        Aulas(
+                            legenda = "KeyTyped e KeyReleased",
+                            cor_cima = colorResource(R.color.fundo),
+                            cor_baixo = colorResource(R.color.modulo_4),
+                            navController = navController,
+                            destino = "modulo4_21",
+                            imagemRes = R.drawable.play,
+                            thumbnailid = "DFIe76rjLF4"
+                        )
+                    }
+
+                    Spacer(modifier = Modifier.weight(1f).padding(horizontal = 10.dp))
                 }
             }
         }
